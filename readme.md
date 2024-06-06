@@ -11,5 +11,3 @@
 - Rum  Migration: `npm run run:migrations"`
 
 
-## Documentation
--  [Postman collection Link](https://rb.gy/so9c3j)
