@@ -3,7 +3,6 @@ import { handleErrorCatch } from "src/libs/common/helpers/utils";
 import { success } from "src/libs/common/types/response";
 import { CharacterRepo } from "./repo/Character.repo";
 import { CharacterDto } from "./dto/Character.dto";
-import { LocationRepo } from "../location/repo/Location.repo";
 import { LocationService } from "../location/Location.service";
 
 @Injectable()

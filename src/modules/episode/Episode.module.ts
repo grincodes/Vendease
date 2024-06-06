@@ -1,5 +1,5 @@
 import { Module } from "@nestjs/common";
-import { CharacterModule } from "../character/character.module";
+import { CharacterModule } from "../character/Character.module";
 import { EpisodeService } from "./Episode.service";
 import { EpisodeRepo } from "./repo/Episode.repo";
 import { EpisodeController } from "./Episode.controller";

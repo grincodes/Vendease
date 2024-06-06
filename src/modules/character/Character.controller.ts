@@ -7,7 +7,7 @@ import {
   Post,
   Query,
 } from "@nestjs/common";
-import { CharacterService } from "./character.service";
+import { CharacterService } from "./Character.service";
 import { CharacterDto } from "./dto/Character.dto";
 
 @Controller("character")

@@ -6,7 +6,7 @@ import {
 import { success } from "src/libs/common/types/response";
 import { EpisodeRepo } from "./repo/Episode.repo";
 import { EpisodeDto } from "./dto/Episode.dto";
-import { CharacterService } from "../character/character.service";
+import { CharacterService } from "../character/Character.service";
 
 @Injectable()
 export class EpisodeService {
@@ -66,7 +66,7 @@ export class EpisodeService {
     const res = await this.episodeRepo.searchEpisodesCharIsFeaturedIn(
       searchQuery
     );
-    return success(res)
+    return success(res);
   }
 
   async deleteEpisode(id: string) {
