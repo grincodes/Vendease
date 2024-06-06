@@ -1,0 +1,39 @@
+
+
+PORT=4500
+NODE_ENV=development
+
+DATABASE_USER=postgres.kwtfltpdamunufqptdgq
+DATABASE_PASSWORD=postgres1234$
+
+DATABASE_HOST=aws-0-eu-central-1.pooler.supabase.com
+
+DATABASE_NAME=postgres
+
+DATABASE_PORT=6543
+
+
+
+# DATABASE_USER=postgres
+# DATABASE_PASSWORD=postgres1234 
+# DATABASE_HOST=127.0.0.1 
+# DATABASE_NAME=jasere
+# DATABASE_PORT=5432 
+
+DATABASE_SYNC=false
+DATABASE_LOGGING=true
+
+JWT_EXPIRATION=5600
+JWT_SECRET=4YdOfiPtyv1aYAjSdr7MidPOnmZHtT4AdLAv
+
+CORS_ALLOWED_ORIGIN="*"
+IS_PRODUCTION=false
+ 
+
+
+
+
+
+
+
+
